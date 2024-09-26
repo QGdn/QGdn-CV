@@ -1,0 +1,32 @@
+header, footer {
+    background-color: #17abb3;
+    align-content: center;
+}
+
+h3 {
+    color: #17abb3;
+}
+body {
+    width: 1160px;
+    background-color: #f5f5f5;
+    margin: auto;
+    word-wrap: break-word;
+}
+
+.skills {
+    background-color: #e3e3e3;
+    
+}
+
+.profil {
+    background-color: #ffffff;
+}
+
+ul {
+    list-style: square;
+    color: #17abb3;
+}
+
+span {
+    color: black;
+}
