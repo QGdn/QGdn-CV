@@ -10,23 +10,31 @@
 <body>
     <header>
         <!-- Bandeau de présentation et contact-->
-        <a href="#"><img src="#" alt="Photo de profil"></a>
-        <h1>Quentin GAUDIN</h1>
-        <h2>Développeur web et web mobile</h2>
-        <address>
-            <img src="./assets/img/enveloppe.png" alt="Icone d'une enveloppe"><a href="mailto:">Mail</a>
-            <img src="./assets/img/appel.png" alt="Icone d'un téléphone"><a href="tel:+">Téléphone</a>
-            <img src="./assets/img/maison-silhouette-noire-sans-porte.png" alt="Icone d'une maison"><a href="https://www.google.com/maps" target="_blank">Adresse</a>
-            <p><img src="./assets/img/voiture-avant.png" alt="Icone d'une voiture">Permis B</p>
-        </address>
+        <div class="photo">
+            <a href="./assets/img/photo-profil.jpg"><img src="./assets/img/photo-profil.jpg" alt="Photo de profil"></a>
+        </div>
+        <div class="presentation">
+            <h1>Quentin GAUDIN</h1>
+            <h2>Développeur web et web mobile</h2>
+            <address>
+                <p>
+                    <a href="mailto:"><img src="./assets/img/enveloppe.png" alt="Icone d'une enveloppe">Mail</a>
+                    <a href="https://www.google.com/maps" target="_blank"><img src="./assets/img/maison-silhouette-noire-sans-porte.png" alt="Icone d'une maison">Adresse</a>
+                </p>
+                <p>
+                    <a href="tel:+"><img src="./assets/img/appel.png" alt="Icone d'un téléphone">Téléphone</a>
+                    <img src="./assets/img/voiture-avant.png" alt="Icone d'une voiture">Permis B
+                </p>
+            </address>
+        </div>
     </header>
     <main>
         <!--Colonne des compétences-->
         <div class="skills">
+            <h3>Compétences</h3>
+            <hr>
             <section>
-                <h3>Compétences</h3>
-                <hr>
-                <p>HTML <img src="./assets/img/eval-4-etoiles.png" alt="4 étoiles sur 5"></p>
+                <p>HTML<img src="./assets/img/eval-4-etoiles.png" alt="4 étoiles sur 5"></p>
                 <p>CSS <img src="./assets/img/eval-4-etoiles.png" alt="4 étoiles sur 5"></p>
                 <p>Javascript <img src="./assets/img/eval-4-etoiles.png" alt="4 étoiles sur 5"></p>
                 <p>PHP <img src="./assets/img/eval-4-etoiles.png" alt="4 étoiles sur 5"></p>
@@ -68,30 +76,64 @@
             <section>
                 <h3>Formations</h3>
                 <hr>
-                <p>Diplome 1</p>
-                <p>Diplome 2</p>
-                <p>Diplome 3</p>
+                <p>
+                    <b>Diplome 1</b><br>
+                    <small>Lieu</small>
+                    <span>Date</span>
+                </p>
+                <p>
+                    <b>Diplome 2</b><br>
+                    <small>Lieu</small>
+                    <span>Date</span>
+                </p>
+                <p>
+                    <b>Diplome 3</b><br>
+                    <small>Lieu</small>
+                    <span>Date</span>
+                </p>
             </section>
             <section>
                 <h3>Stages</h3>
                 <hr>
-                <p>Stage 1</p>
-                <p>Stage 2</p>
+                <p>
+                    <b>Stage 1</b><br>
+                    <small>Lieu</small>
+                    <span>Date</span>
+                </p>
+                <p>
+                    <b>Stage 2</b><br>
+                    <small>Lieu</small>
+                    <span>Date</span>
+                </p>
             </section>
             <section>
             <h3>Expérience professionnelle</h3>
             <hr>
-                <p>Expérience 1</p>
-                <p>Expérience 2</p>
-                <p>Expérience 3</p>
+            <p>
+                <b>Experience 1</b><br>
+                <small>Lieu</small>
+                <span>Date</span>
+            </p>
+            <p>
+                <b>Experience 2</b><br>
+                <small>Lieu</small>
+                <span>Date</span>
+            </p>
+            <p>
+                <b>Experience 3</b><br>
+                <small>Lieu</small>
+                <span>Date</span>
+            </p>
             </section>
         </div>
     </main>
     <footer>
         <!--Liens réseaux sociaux-->
-        <a href="#"><img src="./assets/img/logo-linkedin.png" alt="Icone LinkedIn"></a>
-        <a href="#"><img src="./assets/img/logo-github.png" alt="Icone GitHub"></a>
-        <p>Mis à jour le : <time datetime="2024-09-26"> 26/09/2024</time></p>
+        <div>
+            <a href="#"><img src="./assets/img/logo-linkedin.png" alt="Icone LinkedIn"></a>
+            <a href="#"><img src="./assets/img/logo-github.png" alt="Icone GitHub"></a>
+            <p>Mis à jour le : <time datetime="2024-09-26"> 26/09/2024</time></p>
+        </div>
     </footer>
 </body>
 </html>
