@@ -6,6 +6,7 @@ header, footer {
 h3 {
     color: #17abb3;
 }
+
 body {
     width: 1160px;
     background-color: #f5f5f5;
@@ -15,11 +16,18 @@ body {
 
 .skills {
     background-color: #e3e3e3;
-    
+    align-content: center;
 }
+
+
 
 .profil {
     background-color: #ffffff;
+    align-content: center;
+}
+
+#profil {
+    text-indent: 20px;
 }
 
 ul {
@@ -29,4 +37,18 @@ ul {
 
 span {
     color: black;
+}
+
+footer img {
+    width: 32px;
+    height: 32px;
+}
+
+.skills section img {
+    width: 64px;
+    height: 64px;
+}
+
+img {
+    vertical-align: middle;
 }
