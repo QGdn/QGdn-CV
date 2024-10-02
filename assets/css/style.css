@@ -98,6 +98,11 @@ main div:first-child p {
     margin: 0px;
 }
 
+main div:first-child span{
+    font-weight: normal;
+    float: inline-end;
+}
+
 main div:last-child {
     background-color: #ffffff;
     width: 70%;
@@ -127,11 +132,11 @@ main div:last-child section span{
 }
 
 ul {
-    list-style: square;
+    list-style-type:square;
     color: #17abb3;
 }
 
-span {
+ul li span{
     color: black;
 }
 
