@@ -10,37 +10,45 @@
 <body>
     <header>
         <!-- Bandeau de présentation et contact-->
-        <a href="#"><img src="#" alt="Photo de profil"></a>
-        <h1>Quentin GAUDIN</h1>
-        <h2>Développeur web et web mobile</h2>
-        <address>
-            <img src="./assets/img/enveloppe.png" alt="Icone d'une enveloppe"><a href="mailto:">Mail</a>
-            <img src="./assets/img/appel.png" alt="Icone d'un téléphone"><a href="tel:+">Téléphone</a>
-            <img src="./assets/img/maison-silhouette-noire-sans-porte.png" alt="Icone d'une maison"><a href="https://www.google.com/maps" target="_blank">Adresse</a>
-            <p><img src="./assets/img/voiture-avant.png" alt="Icone d'une voiture">Permis B</p>
-        </address>
+        <div>
+            <a href="./assets/img/photo-profil.jpg"><img src="./assets/img/photo-profil.jpg" alt="Photo de profil"></a>
+        </div>
+        <div>
+            <section>
+                <h1>Quentin GAUDIN</h1>
+                <h2>Développeur Web et Web Mobile</h2>
+            </section>
+            <section>
+                <address>
+                    <a href="mailto:"><img src="./assets/img/enveloppe.png" alt="Icone d'une enveloppe">Mail</a>
+                    <a href="https://www.google.com/maps" target="_blank"><img src="./assets/img/maison-silhouette-noire-sans-porte.png" alt="Icone d'une maison">Adresse</a>
+                    <a href="tel:+"><img src="./assets/img/appel.png" alt="Icone d'un téléphone">Téléphone</a>
+                    <p><img src="./assets/img/voiture-avant.png" alt="Icone d'une voiture">Permis B</p>
+                </address>
+            </section>
+        </div>
     </header>
     <main>
         <!--Colonne des compétences-->
-        <div class="skills">
+        <div>
+            <h3>Compétences</h3>
+            <hr>
             <section>
-                <h3>Compétences</h3>
-                <hr>
-                <p>HTML <img src="./assets/img/eval-4-etoiles.png" alt="4 étoiles sur 5"></p>
-                <p>CSS <img src="./assets/img/eval-4-etoiles.png" alt="4 étoiles sur 5"></p>
-                <p>Javascript <img src="./assets/img/eval-4-etoiles.png" alt="4 étoiles sur 5"></p>
-                <p>PHP <img src="./assets/img/eval-4-etoiles.png" alt="4 étoiles sur 5"></p>
+                <p>HTML<img src="./assets/img/rating.png" alt="test"></p>
+                <p>CSS<img src="./assets/img/rating.png" alt="test"></p>
+                <p>Javascript<img src="./assets/img/rating.png" alt="test"></p>
+                <p>PHP<img src="./assets/img/rating.png" alt="test"></p>
             </section>
+            <h3>Langues</h3>
+            <hr>
             <section>
-                <h3>Langues</h3>
-                <hr>
                 <p>Français</p>
                 <p>Anglais</p>
                 <p>Allemand</p>
             </section>
+            <h3>Qualités</h3>
+            <hr>
             <section>
-                <h3>Qualités</h3>
-                <hr>
                 <ul>
                     <li><span>Esprit d'équipe</span></li>
                     <li><span>Autonomie</span></li>
@@ -48,9 +56,9 @@
                     <li><span>Créativité</span></li>
                 </ul>
             </section>
+            <h3>Centres d'intérêt</h3>
+            <hr>
             <section>
-                <h3>Centres d'intérêt</h3>
-                <hr>
                 <ul>
                     <li><span>Yoga</span></li>
                     <li><span>Tennis</span></li>
@@ -59,39 +67,72 @@
             </section>
         </div>
         <!--Colonne de présentation / Profil-->
-        <div class="profil">
-            <section>
+        <div>
                 <h3>Profil</h3>
                 <hr>
-                <p id="profil">aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</p>
+            <section class="profil">
+                <p>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</p>
+                <p>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</p>
             </section>
             <section>
                 <h3>Formations</h3>
                 <hr>
-                <p>Diplome 1</p>
-                <p>Diplome 2</p>
-                <p>Diplome 3</p>
+                <p>
+                    <b>Diplome 1</b>
+                    <span>Date</span><br>
+                    <small>Lieu</small>
+                </p>
+                <p>
+                    <b>Diplome 2</b>
+                    <span>Date</span><br>
+                    <small>Lieu</small>                    
+                </p>
+                <p>
+                    <b>Diplome 3</b>
+                    <span>Date</span><br>
+                    <small>Lieu</small>                    
+                </p>
             </section>
             <section>
                 <h3>Stages</h3>
                 <hr>
-                <p>Stage 1</p>
-                <p>Stage 2</p>
+                <p>
+                    <b>Stage 1</b>
+                    <span>Date</span><br>
+                    <small>Lieu</small>                    
+                </p>
+                <p>
+                    <b>Stage 2</b>
+                    <span>Date</span><br>
+                    <small>Lieu</small>                    
+                </p>
             </section>
             <section>
             <h3>Expérience professionnelle</h3>
             <hr>
-                <p>Expérience 1</p>
-                <p>Expérience 2</p>
-                <p>Expérience 3</p>
+            <p>
+                <b>Experience 1</b>
+                <span>Date</span><br>
+                <small>Lieu</small>                
+            </p>
+            <p>
+                <b>Experience 2</b>
+                <span>Date</span><br>
+                <small>Lieu</small>                
+            </p>
+            <p>
+                <b>Experience 3</b>
+                <span>Date</span><br>
+                <small>Lieu</small>                
+            </p>
             </section>
         </div>
     </main>
     <footer>
         <!--Liens réseaux sociaux-->
-        <a href="#"><img src="./assets/img/logo-linkedin.png" alt="Icone LinkedIn"></a>
-        <a href="#"><img src="./assets/img/logo-github.png" alt="Icone GitHub"></a>
-        <p>Mis à jour le : <time datetime="2024-09-26"> 26/09/2024</time></p>
+            <a href="#"><img src="./assets/img/logo-linkedin.png" alt="Icone LinkedIn"></a>
+            <a href="#"><img src="./assets/img/logo-github.png" alt="Icone GitHub"></a>
+            <p>Mis à jour le : <time datetime="2024-09-26"> 26/09/2024</time></p>
     </footer>
 </body>
 </html>
