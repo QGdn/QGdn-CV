@@ -43,19 +43,19 @@ footer p {
     margin: 10px 0px 0px;
 }
 
-.photo {
+header div:first-child {
     width: 30%;
     align-content: center;
 }
 
-.photo img {
+header div:first-child img {
     width: 140px;
     height: 140px;
     border: 5px solid #ffffff;
     border-radius: 75px; 
 }
 
-.presentation {
+header div:last-child {
     width: 70%;
 }
 
@@ -79,38 +79,52 @@ main div {
     float: left;
 }
 
-.skills {
+main div:first-child {
     background-color: #e3e3e3;
     width: 30%;
 }
 
-.skills section{
+main div:first-child section{
     display: flex;
     flex-direction: column;
 }
 
-.skills section img{
+main div:first-child section img{
     float: right;
 }
 
-.skills p {
+main div:first-child p {
     font-weight: bold;
+    margin: 0px;
 }
 
-.profil {
+main div:last-child {
     background-color: #ffffff;
     width: 70%;
+    padding-bottom: 50px;
 }
 
-.profil section:first-child p{
+main div:last-child .profil p{
     text-indent: 20px;
+    margin: 0px;
+}
+
+main div:last-child .profil p:hover{
+    border: none;
+    background-color: #ffffff;
+    padding-left: 0px;
 }
 
 
-.profil section p:hover {
+main div:last-child section p:hover {
     border-left: 5px solid #17abb3;
     padding-left: 5px;
     background-color: #f5f5f5;
+}
+
+main div:last-child section span{
+    color: #17abb3;
+    float: inline-end;
 }
 
 ul {
@@ -125,11 +139,6 @@ span {
 footer img {
     width: 32px;
     height: 32px;
-}
-
-.skills section img {
-    width: 64px;
-    height: 64px;
 }
 
 img {
