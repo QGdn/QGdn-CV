@@ -1,3 +1,5 @@
+/* Caractéristiques globales HEADER / FOOTER */
+
 header, footer {
     background-color: #17abb3;
     color: #ffffff;
@@ -7,6 +9,33 @@ header, footer {
 
 header {
     display: flex;
+}
+
+footer p {
+    margin: 10px 0px 0px;
+}
+
+
+/* Photo header */
+
+header div:first-child {
+    width: 30%;
+    align-content: center;
+}
+
+header div:first-child img {
+    width: 140px;
+    height: 140px;
+    border: 5px solid #ffffff;
+    border-radius: 75px; 
+}
+
+
+
+/* Présentation et contact header */
+
+header div:last-child {
+    width: 70%;
 }
 
 header a {
@@ -39,25 +68,8 @@ address a, address p{
     font-style: normal;
 }
 
-footer p {
-    margin: 10px 0px 0px;
-}
 
-header div:first-child {
-    width: 30%;
-    align-content: center;
-}
-
-header div:first-child img {
-    width: 140px;
-    height: 140px;
-    border: 5px solid #ffffff;
-    border-radius: 75px; 
-}
-
-header div:last-child {
-    width: 70%;
-}
+/* Caractéristiques globales */
 
 h3 {
     color: #17abb3;
@@ -79,6 +91,13 @@ main div {
     float: left;
 }
 
+img {
+    vertical-align: middle;
+}
+
+
+/* Colonne compétences */
+
 main div:first-child {
     background-color: #e3e3e3;
     width: 30%;
@@ -87,6 +106,7 @@ main div:first-child {
 main div:first-child section{
     display: flex;
     flex-direction: column;
+    row-gap: 10px;
 }
 
 main div:first-child section img{
@@ -102,6 +122,22 @@ main div:first-child span{
     font-weight: normal;
     float: inline-end;
 }
+
+main div:first-child ul li span{
+    float: none;
+}
+
+ul {
+    list-style-type:square;
+    color: #17abb3;
+}
+
+ul li span{
+    color: black;
+}
+
+
+/* Colonne Profil */
 
 main div:last-child {
     background-color: #ffffff;
@@ -131,24 +167,14 @@ main div:last-child section span{
     float: inline-end;
 }
 
-ul {
-    list-style-type:square;
-    color: #17abb3;
+small {
+    font-style: italic;
 }
 
-ul li span{
-    color: black;
-}
+
+/* Footer */
 
 footer img {
     width: 32px;
     height: 32px;
-}
-
-img {
-    vertical-align: middle;
-}
-
-small {
-    font-style: italic;
 }
