@@ -1,9 +1,8 @@
 header, footer {
     background-color: #17abb3;
     color: #ffffff;
-    align-content: center;
     text-align: center;
-    padding: 20px 0px;
+    padding: 10px 0px;
 }
 
 header {
@@ -13,6 +12,35 @@ header {
 header a {
     color: #ffffff;
     text-decoration: none;
+}
+
+header section:last-child{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+}
+
+address{
+    text-align: start;
+    padding-left: 90px;
+}
+
+address img{
+    padding-right: 10px;
+    vertical-align: text-bottom;
+}
+
+address a, address p{
+    width: 50%;
+    margin: 0px;
+    float: left;
+    padding: 5px 0px;
+    font-style: normal;
+}
+
+footer p {
+    margin: 10px 0px 0px;
 }
 
 .photo {
@@ -56,6 +84,15 @@ main div {
     width: 30%;
 }
 
+.skills section{
+    display: flex;
+    flex-direction: column;
+}
+
+.skills section img{
+    float: right;
+}
+
 .skills p {
     font-weight: bold;
 }
@@ -65,9 +102,10 @@ main div {
     width: 70%;
 }
 
-#profil {
+.profil section:first-child p{
     text-indent: 20px;
 }
+
 
 .profil section p:hover {
     border-left: 5px solid #17abb3;
