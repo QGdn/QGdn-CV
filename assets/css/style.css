@@ -106,16 +106,18 @@ main div:first-child {
 main div:first-child section{
     display: flex;
     flex-direction: column;
-    row-gap: 10px;
+    row-gap: 15px;
 }
 
 main div:first-child section img{
     float: right;
+    padding-right: 5px;
 }
 
 main div:first-child p {
     font-weight: bold;
     margin: 0px;
+    height: 16px;
 }
 
 main div:first-child span{
