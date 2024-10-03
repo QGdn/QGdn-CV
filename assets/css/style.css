@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap'); */
+
 /* Caractéristiques globales HEADER / FOOTER */
 
 header, footer {
@@ -71,8 +74,34 @@ address a, address p{
 
 /* Caractéristiques globales */
 
+h1, h2, h3{
+    font-family: "Lato";
+}
+
+@font-face{
+    font-family: "Raleway";
+    src: url(../fonts/Raleway-VariableFont_wght.woff);
+    src: url(../fonts/Raleway-VariableFont_wght.ttf) format(truetype);
+    src: url(../fonts/Raleway-VariableFont_wght.otf) format(opentype);
+}
+
+*{
+    font-family: "Raleway";
+}
+
+h1 {
+    font-size: 2.5em;
+    margin-bottom: 0px;
+}
+
+h2{
+    font-size: 1.5em;
+    margin-top: 10px;
+}
+
 h3 {
     color: #17abb3;
+    font-size: 1.5em;
 }
 
 body {
@@ -110,7 +139,7 @@ main div:first-child section{
 }
 
 main div:first-child section img{
-    float: right;
+    float: inline-start;
     padding-right: 5px;
 }
 
@@ -127,17 +156,22 @@ main div:first-child span{
 
 main div:first-child ul li span{
     float: none;
+    color: black;
 }
 
 ul {
     list-style-type:square;
     color: #17abb3;
+    padding-inline-start: 20px;
 }
 
-ul li span{
-    color: black;
+li::marker{
+    font-size: 1.5em;
 }
 
+li{
+    vertical-align: middle;
+}
 
 /* Colonne Profil */
 
