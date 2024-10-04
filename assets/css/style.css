@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
-/* @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap'); */
 
 /* Caractéristiques globales HEADER / FOOTER */
 
@@ -7,15 +6,14 @@ header, footer {
     background-color: #17abb3;
     color: #ffffff;
     text-align: center;
-    padding: 10px 0px;
 }
 
 header {
     display: flex;
 }
 
-footer p {
-    margin: 10px 0px 0px;
+footer{
+    padding-top: 20px;
 }
 
 
@@ -50,7 +48,7 @@ header section:last-child{
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-bottom: 20px;
+    padding-bottom: 30px;
 }
 
 address{
@@ -75,14 +73,18 @@ address a, address p{
 /* Caractéristiques globales */
 
 h1, h2, h3{
-    font-family: "Lato";
+    font-family: "Lato", sans-serif;
 }
 
 @font-face{
-    font-family: "Raleway";
-    src: url(../fonts/Raleway-VariableFont_wght.woff);
-    src: url(../fonts/Raleway-VariableFont_wght.ttf) format(truetype);
-    src: url(../fonts/Raleway-VariableFont_wght.otf) format(opentype);
+    font-family: "Raleway", serif;
+    src: url(../fonts/Raleway-Regular.woff),
+    url(../fonts/Raleway-Bold.woff),
+    url(../fonts/Raleway-Italic.woff);
+    src: url(../fonts/Raleway-Regular.ttf) format(truetype),
+    url(../fonts/Raleway-Bold.ttf) format(truetype),
+    url(../fonts/Raleway-Italic.ttf) format(truetype);
+    src: url(../fonts/Raleway-Regular.otf) format(opentype);
 }
 
 *{
@@ -116,7 +118,7 @@ main {
 }
 
 main div {
-    padding: 20px;
+    padding: 10px 50px;
     float: left;
 }
 
@@ -129,7 +131,7 @@ img {
 
 main div:first-child {
     background-color: #e3e3e3;
-    width: 30%;
+    width: 20%;
 }
 
 main div:first-child section{
@@ -177,11 +179,11 @@ li{
 
 main div:last-child {
     background-color: #ffffff;
-    width: 70%;
+    width: 80%;
     padding-bottom: 50px;
 }
 
-main div:last-child .profil p{
+main div:last-child .profil-presentation p{
     text-indent: 20px;
     margin: 0px;
 }
@@ -192,7 +194,7 @@ main div:last-child section p:hover {
     background-color: #f5f5f5;
 }
 
-main div:last-child .profil p:hover {
+main div:last-child .profil-presentation p:hover {
     border: none;
     background-color: #ffffff;
     padding-left: 0px;
@@ -200,6 +202,7 @@ main div:last-child .profil p:hover {
 
 main div:last-child section span{
     color: #17abb3;
+    font-size: 1.1em;
     float: inline-end;
 }
 
@@ -211,6 +214,10 @@ small {
 /* Footer */
 
 footer img {
-    width: 32px;
-    height: 32px;
+    margin:0px 10px;
+}
+
+footer p {
+    margin: 10px 0px 0px;
+    padding-bottom: 10px;
 }
