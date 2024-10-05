@@ -2,13 +2,13 @@
 
 /* Caractéristiques globales HEADER / FOOTER */
 
-header, footer {
+header, footer{
     background-color: #17abb3;
     color: #ffffff;
     text-align: center;
 }
 
-header {
+header{
     display: flex;
 }
 
@@ -19,29 +19,25 @@ footer{
 
 /* Photo header */
 
-header div:first-child {
+header div:first-child{
     width: 30%;
     align-content: center;
 }
 
-header div:first-child img {
+header div:first-child img, header div:first-child img:hover{
     width: 140px;
     height: 140px;
     border: 5px solid #ffffff;
-    border-radius: 75px; 
+    border-radius: 75px;
+    cursor: zoom-in; 
 }
 
 
 
 /* Présentation et contact header */
 
-header div:last-child {
+header div:last-child{
     width: 70%;
-}
-
-header a {
-    color: #ffffff;
-    text-decoration: none;
 }
 
 header section:last-child{
@@ -67,6 +63,8 @@ address a, address p{
     float: left;
     padding: 5px 0px;
     font-style: normal;
+    color: #ffffff;
+    text-decoration: none;
 }
 
 
@@ -74,6 +72,7 @@ address a, address p{
 
 h1, h2, h3{
     font-family: "Lato", sans-serif;
+    color: #ffffff;
 }
 
 @font-face{
@@ -89,9 +88,10 @@ h1, h2, h3{
 
 *{
     font-family: "Raleway";
+    color: #333333;
 }
 
-h1 {
+h1{
     font-size: 2.5em;
     margin-bottom: 0px;
 }
@@ -101,37 +101,37 @@ h2{
     margin-top: 10px;
 }
 
-h3 {
+h3{
     color: #17abb3;
     font-size: 1.5em;
 }
 
-body {
+body{
     width: 1160px;
     background-color: #f5f5f5;
     margin: auto;
     word-wrap: break-word;
 }
 
-main {
+main{
     display: flex;
 }
 
-main div {
+main div{
     padding: 10px 50px;
     float: left;
 }
 
-img {
+img{
     vertical-align: middle;
 }
 
 
 /* Colonne compétences */
 
-main div:first-child {
+main div:first-child{
     background-color: #e3e3e3;
-    width: 20%;
+    width: 25%;
 }
 
 main div:first-child section{
@@ -145,7 +145,7 @@ main div:first-child section img{
     padding-right: 5px;
 }
 
-main div:first-child p {
+main div:first-child p{
     font-weight: bold;
     margin: 0px;
     height: 16px;
@@ -158,17 +158,17 @@ main div:first-child span{
 
 main div:first-child ul li span{
     float: none;
-    color: black;
 }
 
-ul {
+ul{
     list-style-type:square;
     color: #17abb3;
     padding-inline-start: 20px;
 }
 
 li::marker{
-    font-size: 1.5em;
+    font-size: 1.3em;
+    color: #17abb3;
 }
 
 li{
@@ -177,24 +177,25 @@ li{
 
 /* Colonne Profil */
 
-main div:last-child {
+main div:last-child{
     background-color: #ffffff;
-    width: 80%;
+    width: 75%;
     padding-bottom: 50px;
 }
 
 main div:last-child .profil-presentation p{
-    text-indent: 20px;
+    text-indent: 30px;
+    text-align: justify;
     margin: 0px;
 }
 
-main div:last-child section p:hover {
+main div:last-child section p:hover{
     border-left: 5px solid #17abb3;
     padding-left: 5px;
     background-color: #f5f5f5;
 }
 
-main div:last-child .profil-presentation p:hover {
+main div:last-child .profil-presentation p:hover{
     border: none;
     background-color: #ffffff;
     padding-left: 0px;
@@ -206,18 +207,26 @@ main div:last-child section span{
     float: inline-end;
 }
 
-small {
+small{
     font-style: italic;
 }
 
 
 /* Footer */
 
-footer img {
+footer img{
     margin:0px 10px;
 }
 
-footer p {
+footer img:hover{
+    opacity: 0.6;
+}
+
+footer p{
     margin: 10px 0px 0px;
     padding-bottom: 10px;
+}
+
+footer small, footer small time{
+    color: #ffffff;
 }
